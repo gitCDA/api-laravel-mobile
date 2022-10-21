@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Topicality extends Model
 {
-    // use HasFactory;
+    use HasFactory;
 
     protected $fillable = [ 'title', 'content' ];
 }

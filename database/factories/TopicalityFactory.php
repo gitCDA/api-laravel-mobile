@@ -23,10 +23,10 @@ class TopicalityFactory extends Factory
     public function definition()
 
     {
-            return [
-                'title' => $this->faker->sentence(6, true),
-                'content' => $this->faker->paragraphs(3, true),
-            ];
+        return [
+            'title' => $this->faker->sentence(6, true),
+            'content' => $this->faker->paragraphs(3, true),
+        ];
     }
     
 }
